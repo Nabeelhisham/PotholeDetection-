@@ -22,8 +22,8 @@ BEST_MODEL_PATH = MODELS_DIR / "best.pt"
 OUTPUT_VIDEO_PATH = OUTPUTS_DIR / "output.mp4"
 
 # Model and inference settings
-BASE_MODEL = "yolov8n.pt"
-EPOCHS = 50
+BASE_MODEL = "models/best.pt"
+EPOCHS = 100
 IMAGE_SIZE = 640
 CONF_THRESHOLD = 0.25
 BOX_COLOR = (0, 255, 0)  # Green in BGR
